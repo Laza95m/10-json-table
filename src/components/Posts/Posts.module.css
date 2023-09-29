@@ -1,0 +1,36 @@
+.posts {
+  width: 100%;
+  max-width: 1110px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.container {
+  border: 1px solid black;
+  width: 100%;
+  max-width: 300px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+}
+
+.btn {
+  cursor: pointer;
+  border: none;
+  background: #483d8b;
+  color: #ffffff;
+  width: 100px;
+  padding: 5px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #6254be;
+}
